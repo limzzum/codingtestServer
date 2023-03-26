@@ -1,0 +1,64 @@
+.wrap {
+    padding-top: 40px;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.wrap > ul {
+    display: flex;
+    height: 40px;
+    margin-bottom: 40px;
+    padding: 0;
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+}
+.wrap > ul > li {
+    align-content: center;
+    padding: 7px 0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+table {
+    margin-bottom: 60px;
+}
+tr {
+    height: 60px;
+}
+td {
+    vertical-align: middle;
+}
+.startEnd {
+    display: flex;
+    justify-content: end;
+}
+
+.startEnd > div {
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+}
+#showPwdPage {
+    width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+}
+#showPwdPage input {
+    margin: 15px 0;
+    width: 100%;
+}
+#confirmChangePwd {
+    width: 100px;
+    height: 35px;
+    border: 1px solid white;
+    margin: 20px auto;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
